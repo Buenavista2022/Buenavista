@@ -1,0 +1,18 @@
+/**
+ * videojs-http-source-selector-mute
+ * @version 1.0.2
+ * @copyright 2020 Jeremy Moseley <jeremymoseley@me.com>
+ * @license MIT
+ */
+.video-js.vjs-http-source-selector-mute{display:block}
+
+
+#videojs-http-source-selector-mute-player{
+    
+   width:80%;
+   height:380px;
+   margin:0 auto;
+   text-align:center;
+}
+
+
