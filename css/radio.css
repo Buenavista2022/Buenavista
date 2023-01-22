@@ -920,8 +920,10 @@ article .elemento {
 
 	margin-top:70px;
 	
-	background-color:LavenderBlush;
-
+   background-color:white;
+   
+  
+	
   }
 
 		
@@ -947,15 +949,6 @@ article .elemento {
           flex-wrap: wrap;
 	      align-items:flex-start;
 		 }
-		
-		.caja-texto figure{
-		  width:45%;
-		  text-align:center;
-		  color:orange;
-		  padding-top:25px;
-		  float:right;
-		}
-		
 				
 .box-testimonio{
     width: 98%;
@@ -984,10 +977,11 @@ article .elemento {
 }
 
 .testimonio-text h4{
-	color:black;
+	font-family:courier,arial,helvética;
+	color:red;
 	text-align:center;
 	padding-top:10px;
-	font-size:22px;
+	font-size:25px;
 }
 
 .testimonio-text p{
@@ -1014,33 +1008,6 @@ article .elemento {
             margin: 0 auto;
 		}
 		
-		
-#radio{
-  width:%;
-  height:auto;
-  padding-top:15px;
-  background-color:;
-  margin-left:20px;
-}
-
-
-#ppbutton{
-	background-color:;
-	margin:0 auto;
-}
-
-.icon-play2:before { content: '\e800'; }
-.icon-pause:before { content: '\f28c'; }
-
-#cont{width:300px;height:300px;position:relative; margin-lef:0 auto;
- top:100px;}
-
-#ppbutton{font-size: 2em;line-height:90px;vertical-align:middle; margin:0 auto; color:red;}
-
-
-
-    
-
 		
   #player {
 	width: 290px; 									
@@ -1148,8 +1115,6 @@ article .elemento {
 
 	margin-top:70px;
 	
-	background-color:LavenderBlush;
-
   }
 
 		
@@ -1176,14 +1141,7 @@ article .elemento {
 	      align-items:flex-start;
 		 }
 		
-		.caja-texto figure{
-		  width:45%;
-		  text-align:center;
-		  color:orange;
-		  padding-top:25px;
-		  float:right;
-		}
-		
+
 				
 .box-testimonio{
     width: 98%;
@@ -1199,23 +1157,16 @@ article .elemento {
 	display:inline-block;
 }
 
-.card-img img{
-	padding-top:25px;
-	 display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-	margin: 0 auto;
-}
+
 
 .testimonio-text{
 	color:white;
 }
 
 .testimonio-text h4{
-	color:black;
 	text-align:center;
 	padding-top:10px;
-	font-size:22px;
+	font-size:25px;
 }
 
 .testimonio-text p{
@@ -1232,7 +1183,6 @@ article .elemento {
 		
 	   .caja-matrix aside{
 			display: inline-block;
-			background-color:WhiteSmoke;
 			width:35%;
 			height:250px;
 			padding-top:20px;
@@ -1309,7 +1259,6 @@ article .elemento {
 	  width:98%;
 	  height:auto;
 	  margin:0 auto;
-	  background-color:LavenderBlush;
 	  display: flex;
 	  margin-bottom:20px;   
 	  flex-flow:row wrap; 
@@ -1368,7 +1317,6 @@ article .elemento {
 }
 
 .testimonio-text h4{
-	color:black;
 	text-align:center;
 	padding-top:10px;
 }
@@ -1435,7 +1383,6 @@ article .elemento {
 	  width:98%;
 	  height:auto;
 	  margin:0 auto;
-	  background-color:LavenderBlush;
 	  display: flex;
 	  margin-bottom:20px;   
 	  flex-flow:row wrap; 
@@ -1494,7 +1441,6 @@ article .elemento {
 }
 
 .testimonio-text h4{
-	color:black;
 	text-align:center;
 	padding-top:10px;
 }
@@ -1617,7 +1563,6 @@ article .elemento {
 	  width:98%;
 	  height:auto;
 	  margin:0 auto;
-	  background-color:LavenderBlush;
 	  display: flex;
 	  margin-bottom:20px;   
 	  flex-flow:row wrap; 
@@ -1647,8 +1592,9 @@ article .elemento {
     .caja-texto p{
 		width:85%;
 	    text-align:center;
-        font-size:14px;
+        font-size:15px;
         color:black;
+		font-family:Cambria;
 		padding-bottom:2px;
         text-align:justify;
         margin:0 auto;
@@ -1676,7 +1622,6 @@ article .elemento {
 }
 
 .testimonio-text h4{
-	color:black;
 	text-align:center;
 	padding-top:10px;
 }
@@ -8439,9 +8384,13 @@ footer {
 
  .carousels-radio h2{
 
-	 color:black;
+	 color:red;
+	 
+	 font-family:courier,arial,helvética;
 
 	 padding-top:35px;
+	 
+	 font-size:25px;
 	 
 	 padding-bottom:25px;
 	 
@@ -8718,7 +8667,9 @@ footer {
 
   font-size:22px;
 
-  color:black;
+  color:blue;
+  
+  font-family:courier,arial,helvética;
 
   display: flex;
 
@@ -8978,7 +8929,7 @@ footer {
 
   font-size:22px;
 
-  color:black;
+  color:;
 
   display: flex;
 
@@ -9168,7 +9119,7 @@ footer {
 
   font-size:22px;
 
-  color:black;
+  color:;
 
   display: flex;
 
@@ -9354,7 +9305,7 @@ footer {
 
   font-size:22px;
 
-  color:black;
+  color:;
 
   display: flex;
 
@@ -9544,7 +9495,7 @@ footer {
 
   font-size:22px;
 
-  color:black;
+  color:;
 
   display: flex;
 
@@ -9720,7 +9671,7 @@ footer {
 
   font-size:22px;
 
-  color:black;
+  color:;
 
   display: flex;
 
@@ -9906,7 +9857,7 @@ footer {
 
   font-size:22px;
 
-  color:black;
+  color:;
 
   display: flex;
 
@@ -10099,9 +10050,9 @@ footer {
 
   width:100%;
 
-  font-size:22px;
+  font-size:18px;
 
-  color:black;
+  color:;
 
   display: flex;
 
@@ -10827,7 +10778,8 @@ footer {
 
 		text-align:center;
 
-		color:black;
+		color:red;
+		font-family:courier,arial,helvética;
 
 		font-size:25px;
 
@@ -10879,9 +10831,6 @@ footer {
 
 		}
 
-		
-
-		
 
 .chat_titulo{
 
@@ -10900,7 +10849,6 @@ footer {
 }
 
 
-
 .chat_titulo h3{
 
     width:100%;
@@ -10912,11 +10860,7 @@ footer {
 	top:px;
 
     font-size:25px;
-
 }
-
-
-
 
 
 .fb-comments{
@@ -11049,8 +10993,8 @@ footer {
 
 		text-align:center;
 
-		color:black;
-
+		color:;
+		
 		font-size:25px;
 
         padding-top:20px;
@@ -11225,7 +11169,7 @@ footer {
 
 		text-align:center;
 
-		color:black;
+		color:;
 
 		font-size:25px;
 
@@ -11401,7 +11345,7 @@ footer {
 
 		text-align:center;
 
-		color:black;
+		color:;
 
 		font-size:25px;
 
@@ -11580,7 +11524,7 @@ footer {
 
 		text-align:center;
 
-		color:black;
+		color:;
 
 		font-size:25px;
 
@@ -11757,7 +11701,7 @@ footer {
 
 		text-align:center;
 
-		color:black;
+		color:;
 
 		font-size:25px;
 
