@@ -2555,17 +2555,17 @@ article .elemento {
 }
 
 #bloggers h3{
-	width:30%;
+	width:25%;
 	height:40px;
     color:white;
 	margin:0 auto;
-    margin-top:40px;
+    margin-top:45px;
+	font-size:28px;
 	margin-bottom:30px;
     font-family: Montserrat, sans-serif;
 	text-align:center;
 	box-shadow: 0 0px 15px 3px rgba(98, 199, 231, 0.9);  
     background-color: #17171d;
-    font-family: Montserrat, sans-serif;
 	text-align:center;
 }
 
