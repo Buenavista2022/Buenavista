@@ -58,24 +58,6 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0&appId=275754110188363&autoLogAppEvents=1" nonce="fn9QrpVN"></script>
 
 
-<div id="myButton"></div>
-
-
-<script type="text/javascript">
-    $(function () {
-        $('#myButton').floatingWhatsApp({
-            phone:'+57 3022488780',
-            popupMessage: 'Buenavista Estereo',
-            message: "",
-            showPopup: true,
-            showOnIE: false,
-            headerTitle: '',
-            buttonImage: '<img src="imagenes/chattear.png">'
-        });
-    });
-</script>
-
-
 	<!-- Menu de Navegacion -->
     <header id="header">
 	
@@ -376,11 +358,11 @@
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Suscríbase</h3>
-				    <form action="correo.php" method="POST">
-					  <input type="email" name="email" placeholder="Ingresa su correo" required>
-				      <textarea type="mensaje" name="mensaje" id="text_message" placeholder="Ingresa su mensaje" required></textarea>
-					  <input type="submit" value="Enviar">
+					<h3>Formulario</h3>
+				    <form action="" id="formulario">
+					  <input type="email" name="email" id="email" placeholder="Ingresa su correo" required>
+				      <textarea type="text" name="mensajes" id="mensajes" placeholder="Ingresa su mensaje" required></textarea>
+					  <input type="submit" id="submit" value="Enviar">
 				    </form>
 				   
 				</div>
@@ -582,11 +564,11 @@
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Suscríbase</h3>
-				    <form action="correo.php" method="POST">
-					  <input type="email" name="email" placeholder="Ingresa su correo" required>
-				      <textarea type="mensaje" name="mensaje" id="text_message" placeholder="Ingresa su mensaje" required></textarea>
-					  <input type="submit" value="Enviar">
+					<h3>Formulario</h3>
+				     <form action="" id="formulario">
+					  <input type="email" name="email" id="email" placeholder="Ingresa su correo" required>
+				      <textarea type="text" name="mensajes" id="mensajes" placeholder="Ingresa su mensaje" required></textarea>
+					  <input type="submit" id="submit" value="Enviar">
 				    </form>
 				   
 				</div>
@@ -691,11 +673,11 @@
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Suscríbase</h3>
-				    <form action="correo.php" method="POST">
-					  <input type="email" name="email" placeholder="Ingresa su correo" required>
-				      <textarea type="mensaje" name="mensaje" id="text_message" placeholder="Ingresa su mensaje" required></textarea>
-					  <input type="submit" value="Enviar">
+					<h3>Formulario</h3>
+				     <form action="" id="formulario">
+					  <input type="email" name="email" id="email" placeholder="Ingresa su correo" required>
+				      <textarea type="text" name="mensajes" id="mensajes" placeholder="Ingresa su mensaje" required></textarea>
+					  <input type="submit" id="submit" value="Enviar">
 				    </form>
 				   
 				</div>
@@ -738,7 +720,7 @@
 	  
    <article id='RADIO' class='elemento'>	
       	
-  <div class="chat_titulo"><h3>Buenavista 89.0 fm</h3></div>
+  <div class="chat_titulo"><h3>Buenavista Estereo</h3></div>
  
  
     <section class="carousel_lock scrollflow -slide-top">
@@ -928,11 +910,11 @@
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Suscríbase</h3>
-				    <form action="correo.php" method="POST">
-					  <input type="email" name="email" placeholder="Ingresa su correo" required>
-				      <textarea type="mensaje" name="mensaje" id="text_message" placeholder="Ingresa su mensaje" required></textarea>
-					  <input type="submit" value="Enviar">
+					<h3>Formulario</h3>
+				     <form action="" id="formulario">
+					  <input type="email" name="email" id="email" placeholder="Ingresa su correo" required>
+				      <textarea type="text" name="mensajes" id="mensajes" placeholder="Ingresa su mensaje" required></textarea>
+					  <input type="submit" id="submit" value="Enviar">
 				    </form>
 				   
 				</div>
@@ -982,7 +964,7 @@
   
   <script type="text/javascript" src="js/slider.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
-  <script src="js/ajaxform.js"></script>
+  <script src="js/envio.js"></script> 
 
   <script src="js/imagesslider.js"></script>
    <script src="js/imagesslider01.js"></script>
