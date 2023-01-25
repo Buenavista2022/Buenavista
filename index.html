@@ -6,10 +6,10 @@
 <meta name="language" content="spanish">
 <meta name="author" content="Oscar">
 <meta name="description" content="Radio Comunitaria  que emite su frecuencia desde el Municipio de  Buenavista - Córdoba - Colombia, variada programación músical e informativa.">
-<meta name="keywords" content="Emisora Comunitaria Córdoba, Buenavista Estereo">
+<meta name="keywords" content="Emisora Comunitaria Córdoba, Buenavista Estereo, Buenavista 89.0 fm">
 <meta property="og: title" content="Emisora Buenavista Estéreo">
 <meta property="og:site_name" content="www.buenavistaestereo.com">
-<meta property="og: description" content="Radio virtual">
+<meta property="og: description" content="Radio Comunitaria ">
 <link rel="canonical" href="https://www.buenavistaestereo.com">
 
 <!--[if lt IE 9]>
@@ -56,6 +56,24 @@
 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0&appId=275754110188363&autoLogAppEvents=1" nonce="fn9QrpVN"></script>
+
+
+<div id="myButton"></div>
+
+
+<script type="text/javascript">
+    $(function () {
+        $('#myButton').floatingWhatsApp({
+            phone:'+57 3022488780',
+            popupMessage: 'Buenavista Estereo',
+            message: "",
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: '',
+            buttonImage: '<img src="imagenes/chattear.png">'
+        });
+    });
+</script>
 
 
 	<!-- Menu de Navegacion -->
@@ -122,7 +140,7 @@
          
            <div class="testimonio-text">
          <h4>EMISORA</h4>
-         <p>Somos una radio virtual al servicio del municipio de Buenavista y sus alrededores. Nuestro propósito es informar a traves del magazín
+         <p>Somos una radio comunitaria al servicio del municipio de Buenavista y sus alrededores. Nuestro propósito es informar a traves del magazín
             y de contenido social, junto a la variada programación músical.<br>
 		   Los invitamos a seguirnos, para que juntos construyamos una radio pluralista.</p>
          </div>
@@ -141,7 +159,7 @@
 
         $(document).ready(function(){
             var stream = {
-            title: "Buenavista Estereo 89.0 FM",
+            title: "Buenavista Estereo",
             mp3: "https://one.cloudstreaming.eu/proxy/buenavista/stream"	                    	
          },
         ready = false;
@@ -194,7 +212,7 @@
                  </div>
           		
                  
-                  <div id="song" class="song"><marquee scrollamount="6" behavior="scroll" direction="left"><span id="current-track">Buenavista Estéreo</span></marquee></div>
+                  <div id="song" class="song"><marquee scrollamount="6" behavior="scroll" direction="left"><span id="current-track">Buenavista Estéreo 89.0 FM</span></marquee></div>
                 
                 <div id="animation">
                    <div align="left"><img src="imagenes/ecualizador.gif" alt="" width="155" height="50"></div>
@@ -328,7 +346,7 @@
   
 	 
 	 
-	<section class="flexbox-videos" scrollflow -slide-top">
+	<!--	<section class="flexbox-videos" scrollflow -slide-top">
 	
 	   <div class="videos">
 	     <h4></h4>
@@ -351,15 +369,94 @@
 
 	    </div>
 
-     </section>
+     </section> -->
+	 
+	 
+	 
+	 <section class="carousel-wrapper" id="novedad" scrollflow -slide-top">
+
+    <h2>Varidad</h2>
+
+    <div class="owl-carousels_1 owl-theme">
+      
+	  <div class="item">
+          <div class="productos_1 prod-first">  
+         <iframe class="embed-responsive-item" src="https://youtube.com/embed/AT7HHYvbtq4"></iframe>
+		
+	   </div>
+	   
+	   <div class="content">
+          <div class="title">Popular</div>
+          <div class="sub-title"></div>
+        </div>
+	   
+        </div>
+	  
+	 
+	 
+	    <div class="item">
+          <div class="productos_1 prod-first">  
+         <iframe class="embed-responsive-item" src="https://youtube.com/embed/ubHvNue4Ma4"></iframe>
+		
+	   </div>
+	   
+	   <div class="content">
+          <div class="title">Norteña</div>
+          <div class="sub-title"></div>
+        </div>
+	   
+        </div>
+	  
+	  
+     
+    <div class="item">
+      <div class="productos_1 prod-first">  
+         <iframe class="embed-responsive-item" src="https://youtube.com/embed/W_qrpb-u18w"></iframe>
+		
+	  </div>
+	   
+	   <div class="content">
+          <div class="title">Vallenato</div>
+          <div class="sub-title"></div>
+        </div>
+	   
+     </div>
+	  
+    </div>
+	
+	<script src="owl/owl.carousel.min.js"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      margin: 15,
+       loop: true,
+       autoplay: true,
+      nav: true,
+      navText: [""],
+      responsive: {
+        0: {
+          items: 1
+        },
+        580: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+    
+  </section> 
+  
 	 
 	
 	 <footer>
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Formulario</h3>
-				    <form action="" id="formulario">
+					<h3>Suscríbase</h3>
+				   <form action="" id="formulario">
 					  <input type="email" name="email" id="email" placeholder="Ingresa su correo" required>
 				      <textarea type="text" name="mensajes" id="mensajes" placeholder="Ingresa su mensaje" required></textarea>
 					  <input type="submit" id="submit" value="Enviar">
@@ -370,8 +467,9 @@
 				<div class="footer-columna">
 					<h3>Dirección</h3>
 					<span class="fa fa-map-marker"><p>Calle 9B#8B-17 <br> Barrio San Jose</p></span><br>
-					<span class="fa fa-phone"> <a href="tel:+3206912307" style="color:white"> <p>+3022488780</p></a></span><br>
 					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>buenavistaestereo@gmail.com</p></a></span><br>
+					<span class="fa fa-phone"> <a href="tel:+3206912307" style="color:white"> <p>+3022488780</p></a></span><br>
+					
 				</div>
 
 				<div class="footer-columna">
@@ -564,21 +662,17 @@
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Formulario</h3>
-				     <form action="" id="formulario">
-					  <input type="email" name="email" id="email" placeholder="Ingresa su correo" required>
-				      <textarea type="text" name="mensajes" id="mensajes" placeholder="Ingresa su mensaje" required></textarea>
-					  <input type="submit" id="submit" value="Enviar">
-				    </form>
-				   
+					<h3>Suscríbase</h3>
+				      <form action="" id="formulario">
+					    <span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>buenavistaestereo@gmail.com</p></a></span><br>
+					    <span class="fa fa-phone"> <a href="tel:+3206912307" style="color:white"> <p>+3022488780</p></a></span><br>
+					  </form> 
 				</div>
 
 				<div class="footer-columna">
 					<h3>Dirección</h3>
 					<span class="fa fa-map-marker"><p>Calle 9B#8B-17 <br> Barrio San Jose</p></span><br>
-					<span class="fa fa-phone"> <a href="tel:+3206912307" style="color:white"> <p>+3022488780</p></a></span><br>
-					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>buenavistaestereo@gmail.com</p></a></span><br>
-				</div>
+				 </div>
 
 				<div class="footer-columna">
 					<h3>Nosotros</h3>
@@ -673,20 +767,17 @@
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Formulario</h3>
-				     <form action="" id="formulario">
-					  <input type="email" name="email" id="email" placeholder="Ingresa su correo" required>
-				      <textarea type="text" name="mensajes" id="mensajes" placeholder="Ingresa su mensaje" required></textarea>
-					  <input type="submit" id="submit" value="Enviar">
-				    </form>
+					<h3>Suscríbase</h3>
+				      <form action="" id="formulario">
+					    <span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>buenavistaestereo@gmail.com</p></a></span><br>
+					    <span class="fa fa-phone"> <a href="tel:+3206912307" style="color:white"> <p>+3022488780</p></a></span><br>
+					  </form> 
 				   
 				</div>
 
 				<div class="footer-columna">
 					<h3>Dirección</h3>
 					<span class="fa fa-map-marker"><p>Calle 9B#8B-17 <br> Barrio San Jose</p></span><br>
-					<span class="fa fa-phone"> <a href="tel:+3206912307" style="color:white"> <p>+3022488780</p></a></span><br>
-					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>buenavistaestereo@gmail.com</p></a></span><br>
 				</div>
 
 				<div class="footer-columna">
@@ -910,20 +1001,17 @@
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Formulario</h3>
-				     <form action="" id="formulario">
-					  <input type="email" name="email" id="email" placeholder="Ingresa su correo" required>
-				      <textarea type="text" name="mensajes" id="mensajes" placeholder="Ingresa su mensaje" required></textarea>
-					  <input type="submit" id="submit" value="Enviar">
-				    </form>
+					<h3>Suscríbase</h3>
+				      <form action="" id="formulario">
+					  <span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>buenavistaestereo@gmail.com</p></a></span><br>
+					  <span class="fa fa-phone"> <a href="tel:+3206912307" style="color:white"> <p>+3022488780</p></a></span><br>
+					  </form> 
 				   
 				</div>
 
 				<div class="footer-columna">
 					<h3>Dirección</h3>
 					<span class="fa fa-map-marker"><p>Calle 9B#8B-17 <br> Barrio San Jose</p></span><br>
-					<span class="fa fa-phone"> <a href="tel:+3206912307" style="color:white"> <p>+3022488780</p></a></span><br>
-					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>buenavistaestereo@gmail.com</p></a></span><br>
 				</div>
 
 				<div class="footer-columna">
@@ -964,7 +1052,7 @@
   
   <script type="text/javascript" src="js/slider.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
-  <script src="js/envio.js"></script> 
+   <script src="js/envio.js"></script> 
 
   <script src="js/imagesslider.js"></script>
    <script src="js/imagesslider01.js"></script>
