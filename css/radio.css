@@ -14429,6 +14429,46 @@ footer {
 }
 
 
+
+/*scollup icon*/
+
+.scrollup {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	opacity: .3;
+	position: fixed;
+	bottom:110px;
+	right: 5px; 
+	color: red;
+	cursor: pointer;
+	background-color:red;
+	z-index: 1;
+	transition: opacity .5s, background-color .5s;
+	-moz-transition: opacity .5s, background-color .5s;
+	-webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+	background: #82ca9c;
+	opacity: 1;
+}
+
+.scrollup i {
+	font-size: 13px;
+	position: absolute;
+	opacity: 1;
+	color: #fff;
+	left: 50%;
+	top: 50%;
+	margin-top: -7px;
+	margin-left: -6px;
+	text-decoration: none;
+
+}
+
+
+
 /*Estilos de la galeria*/
 
 #galeria {
