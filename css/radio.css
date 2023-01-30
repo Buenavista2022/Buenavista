@@ -3,15 +3,12 @@
 	padding: 0;
 }
 
-/**
- * 1. Add the correct display in IE 9-.
- * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
+
 progress {
   display: inline-block;
-  /* 1 */
+ 
   vertical-align: baseline;
-  /* 2 */
+ 
 }
 
 
@@ -54,10 +51,11 @@ main {
 }
 
 .menu{
-    width:99.7%;
+    width:99.8%;
     position: fixed;
     margin-left:px;
     height: 60px;
+	top:0;
     color:white;
     display: flex;
     justify-content: space-between;
@@ -829,8 +827,7 @@ main {
 
 
 
-
-/*Contenido Fronterisima*/
+/*Contenido*/
 
 #contenido {
   width:99.5%;
@@ -1743,7 +1740,7 @@ article .elemento {
 	color:blue;	
 	padding-top:20px;
 	margin: 20px;
-	background-color:black;	
+	background-color:white;	
 }
 
 #bloggeros .contenido_blocks{
@@ -1764,7 +1761,7 @@ article .elemento {
 	font-size:30px;
 	padding-top:20px;
 	margin: 20px;
-	background-color:black;	
+	background-color:white;	
 }
 
 
@@ -1974,7 +1971,7 @@ article .elemento {
 @media and screen(width:3840px){
 #contenido {
   width:99.5%;
-  height:2160px;
+  height:100vh;
   display:hidden;
   margin-top:2px;
   margin-left:4px;
@@ -1986,7 +1983,7 @@ article .elemento {
 .elemento {
   background:url(../imagenes/elemento.jpg);
   background-repeat: repeat; 
-  height:2160px;
+  height:100vh;
   padding: 0.5em 0.5em;
   display: none;
   margin-bottom:2px;
@@ -1997,7 +1994,7 @@ article .elemento {
 
 article .elemento {
   width:99.5%;
-  height:100%;
+  height:100vh;
   display:hidden;
   margin-top:2px;
   margin-left:4px;
@@ -7459,6 +7456,7 @@ footer {
 	width: 100%;
 	background: #272727;
 	color: #fff;
+
 }
 
 .footer-main {
@@ -9691,7 +9689,7 @@ footer {
 
    width:98%;
 
-	height:auto;
+	height:100vh;
 
 	text-align: center;
 
@@ -14577,4 +14575,39 @@ img:hover {
 		margin: 1%;
 	}
 }
+
+
+.map-responsive{
+
+    overflow:hidden;
+    position:relative;
+    width:95%;
+    height:60vh;
+	margin:0 auto;
+	display:flex;
+
+}
+
+.map-responsive iframe{
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+.vis-responsive{
+    overflow:hidden;
+    position:relative;
+    width:95%;
+    height:60vh;
+	margin:0 auto;
+	display:flex;
+	margin-top:15px;
+    background-color:;
+}
+
+
 
