@@ -944,7 +944,7 @@ article .elemento {
 		  padding-bottom:20px;
           justify-content: center;
           flex-wrap: wrap;
-	      align-items:flex-start;
+	   
 		 }
 				
 .box-testimonio{
@@ -952,11 +952,12 @@ article .elemento {
     margin:0 auto;
     display: flex;
 	padding-top:40px;
+	
     justify-content: center;
     flex-wrap: wrap;
 }
 .card-testimonio{
-    width: 40%;
+    width: 67%;
     margin: 20px;
 	display:inline-block;
 }
@@ -984,8 +985,9 @@ article .elemento {
 .testimonio-text p{
 	width:auto;
     height:auto;
+	font-family:courier,arial,helvética;
 	color:black;
-	font-size:15px;	
+	font-size:18px;	
 	padding-top:20px;
 	text-align:center;
 	text-align:justify;
@@ -1007,17 +1009,17 @@ article .elemento {
 		
 		
   #player {
-	width: 290px; 									
-	height: 185px; 									
+	width: 285px; 									
+	height: 180px; 									
     margin-top:70px;									
-	background:url(../imagenes/ondas.gif);						
+	background:url(../imagenes/fondo.jpg);						
 	background-repeat: no-repeat; 
 	background-position: 0px center;			
 	position: relative;
 	border-radius: 7px;
 	border: 5px solid #693209;
 	margin:;
-	box-shadow:0px 0px 40px rgba(0,0,0,.8) inset;
+	box-shadow:0px 0px 25px rgba(0,0,0,.8) inset;
 	
 	}
 
@@ -1149,7 +1151,7 @@ article .elemento {
     flex-wrap: wrap;
 }
 .card-testimonio{
-    width: 40%;
+    width: 80%;
     margin: 20px;
 	display:inline-block;
 }
@@ -1161,6 +1163,7 @@ article .elemento {
 }
 
 .testimonio-text h4{
+	font-family:courier,arial,helvética;
 	text-align:center;
 	padding-top:10px;
 	font-size:25px;
@@ -1170,7 +1173,7 @@ article .elemento {
 	width:auto;
     height:auto;
 	color:black;
-	font-size:15px;	
+	font-size:18px;	
 	padding-top:20px;
 	text-align:center;
 	text-align:justify;
@@ -1314,12 +1317,14 @@ article .elemento {
 }
 
 .testimonio-text h4{
+	font-family:courier,arial,helvética;
 	text-align:center;
 	padding-top:10px;
 }
 
 .testimonio-text p{
 	color:black;
+	font-size:16px;
 }
 	 
  		
@@ -1357,16 +1362,16 @@ article .elemento {
 	left: 5px;
 	top: 98px;
     margin:5px;
-    width: 280px;
+    width: 250px;
     height: 30px;
     font-family: 'Aladin', cursive;
     text-transform: capitalize;
-    font-size: 27px;
+    font-size:20px;
 	}
 	
 	#animation{						
 	position:absolute;
-	left:130px;
+	left:120px;
 	top:50px;
 	}
   }	
@@ -1438,12 +1443,14 @@ article .elemento {
 }
 
 .testimonio-text h4{
+    font-family:courier,arial,helvética;
 	text-align:center;
 	padding-top:10px;
 }
 
 .testimonio-text p{
 	color:black;
+	font-size:16px;
 }
 	 
  		
@@ -1619,6 +1626,7 @@ article .elemento {
 }
 
 .testimonio-text h4{
+    font-family:courier,arial,helvética;
 	text-align:center;
 	padding-top:10px;
 }
@@ -13540,7 +13548,8 @@ img:hover {
     overflow:hidden;
     position:relative;
     width:95%;
-    height:60vh;
+    height:70vh;
+	padding-top:70px;
 	margin:0 auto;
 	display:flex;
 
@@ -13560,7 +13569,7 @@ img:hover {
     overflow:hidden;
     position:relative;
     width:95%;
-    height:60vh;
+    height:70vh;
 	margin:0 auto;
 	display:flex;
 	margin-top:15px;
